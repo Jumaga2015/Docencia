@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docencia", "Docencia\Docencia.csproj", "{2147941F-8A96-4B84-9F37-088FE23391EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDocencia", "ConsoleAppDocencia\ConsoleAppDocencia.csproj", "{9349C4E1-8897-473A-990E-5FF7B2027AA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2147941F-8A96-4B84-9F37-088FE23391EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2147941F-8A96-4B84-9F37-088FE23391EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2147941F-8A96-4B84-9F37-088FE23391EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2147941F-8A96-4B84-9F37-088FE23391EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9349C4E1-8897-473A-990E-5FF7B2027AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9349C4E1-8897-473A-990E-5FF7B2027AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9349C4E1-8897-473A-990E-5FF7B2027AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9349C4E1-8897-473A-990E-5FF7B2027AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80E51489-CFCC-47DB-B7FA-223D433FE287}
+	EndGlobalSection
+EndGlobal
