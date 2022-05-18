@@ -24,7 +24,7 @@ namespace Docencia
 
         public override string DameInfo()
         {
-            return Ape1 + " " + Ape2 + ", " + Nombre + " Actuación Docente(" + Nss + ")";
+            return Ape1 + " " + Ape2 + ", " + Nombre + " En calidad de Docente(" + Nss + ")";
         }
     }
 }
