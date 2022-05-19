@@ -8,26 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jumag\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\Julio\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jumag\\source\\repos\\Docencia\\Docencia\\Docencia\\Docencia.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\source\\repos\\Jumaga2015\\Docencia\\Docencia\\Docencia.csproj",
       "projectName": "Docencia",
-      "projectPath": "C:\\Users\\jumag\\source\\repos\\Docencia\\Docencia\\Docencia\\Docencia.csproj",
-      "packagesPath": "C:\\Users\\jumag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jumag\\source\\repos\\Docencia\\Docencia\\Docencia\\obj\\",
+      "projectPath": "C:\\Users\\Julio\\source\\repos\\Jumaga2015\\Docencia\\Docencia\\Docencia.csproj",
+      "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julio\\source\\repos\\Jumaga2015\\Docencia\\Docencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jumag\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

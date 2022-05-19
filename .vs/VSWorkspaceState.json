@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Docencia",
+    "\\Docencia\\ConsoleAppDocencia",
+    "\\Docencia\\Docencia",
+    "\\Docencia\\Docencia\\Formacion"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Docencia\\ConsoleAppDocencia\\ConsoleAppDocencia.csproj",
   "PreviewInSolutionExplorer": false
 }
