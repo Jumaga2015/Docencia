@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Docencia.Formacion
 {
-    class ModuloFormativo : BaseFormativa
+    public class Curso
     {
-
     }
 }
