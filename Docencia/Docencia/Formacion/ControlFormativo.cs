@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Docencia.Formacion
 {
-    class UnidadDeConocimiento : BaseFormativa
+    class ControlFormativo : BaseFormativa
     {
     }
 }
