@@ -11,10 +11,21 @@ namespace Docencia.Formacion
     {
         public string Nombre { get; }
 
+        private double Nota;
+
         public BaseFormativa(string nombre)
         {
             Nombre = nombre;
+        }
 
+        public virtual void EstableceNota(double nota)
+        {
+            Nota = nota;
+        }
+
+        public virtual double DevuelveNota()
+        {
+            return 0.0;
         }
 
     }

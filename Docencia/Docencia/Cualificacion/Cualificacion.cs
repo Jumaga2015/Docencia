@@ -15,8 +15,13 @@ namespace Docencia.Formacion
         public Cualificacion(string denominacion)
         {
             Denominacion = denominacion;
+            UnidadesDeCompetencia = new Dictionary<string, UnidadDeCompetencia>();
         }
 
+        public void Agregar(UnidadDeCompetencia unidadDeCompetencia)
+        {
+            UnidadesDeCompetencia.Add(unidadDeCompetencia.Codigo)
+        }
 
     }
 }

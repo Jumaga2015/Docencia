@@ -11,8 +11,6 @@ namespace Docencia
     {
         private Dictionary<BaseFormativa, int> Notas;
 
-        
-
         /// <summary>
         /// Constructor de la clase persona
         /// </summary>

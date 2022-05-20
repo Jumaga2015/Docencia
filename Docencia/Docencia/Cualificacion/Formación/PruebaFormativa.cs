@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Docencia.Formacion
 {
-    class ControlFormativo : BaseFormativa
+    public class PruebaFormativa : BaseFormativa
     {
-        public ControlFormativo(string nombre) : base(nombre)
+        //Preguntas etc...
+
+        
+
+        public PruebaFormativa(string nombre) : base(nombre)
         {
 
         }

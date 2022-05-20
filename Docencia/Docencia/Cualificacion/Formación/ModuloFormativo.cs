@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Docencia.Formacion
 {
-    class ModuloFormativo : BaseFormativa
+    public class ModuloFormativo : BaseFormativa
     {
+        public List<UnidadFormativa> UnidadesFormativas;
+
         public ModuloFormativo(string nombre): base(nombre)
         {
-
+            UnidadesFormativas = new List<UnidadFormativa>();
         }
     }
 }
