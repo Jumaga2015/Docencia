@@ -11,7 +11,7 @@ namespace Docencia.Formacion
 
         public string Denominacion { get; }
         public Dictionary<string, UnidadDeCompetencia> UnidadesDeCompetencia;
-        º
+        
         public Cualificacion(string denominacion)
         {
             Denominacion = denominacion;

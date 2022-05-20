@@ -13,7 +13,7 @@ namespace ConsoleAppDocencia
 
             Console.WriteLine(p.DameInfo());
 
-            Console.WriteLine(p.DameInfoEx());
+            Console.WriteLine(p.DameInfoExtendida());
 
             Console.ReadKey();
 

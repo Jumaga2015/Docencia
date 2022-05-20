@@ -8,6 +8,9 @@ namespace Docencia.Formacion
 {
     class ModuloFormativo : BaseFormativa
     {
+        public ModuloFormativo(string nombre): base(nombre)
+        {
 
+        }
     }
 }

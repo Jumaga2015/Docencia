@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Docencia.Formacion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,9 @@ namespace Docencia
 {
     public class Discente : Persona
     {
-        private Dictionary<EntidadFormativa, Nota> NotasEntidades;
+        private Dictionary<BaseFormativa, int> Notas;
+
+        
 
         /// <summary>
         /// Constructor de la clase persona
@@ -17,14 +20,14 @@ namespace Docencia
         /// <param name="ape1">Primer Apellido de la persona</param>
         /// <param name="ape2">Segundo Apellido de la persona</param>
         /// <param name="nss">Número seguridad social</param>
-        public Docente(string nombre, string ape1, string ape2) : base(nombre, ape1, ape2)
+        public Discente(string nombre, string ape1, string ape2) : base(nombre, ape1, ape2)
         {
-            Nss = nss;
+           
         }
 
         public override string DameInfo()
         {
-            return Ape1 + " " + Ape2 + ", " + Nombre + " En calidad de Alumno(" + Nss + ")";
+            return Ape1 + " " + Ape2 + ", " + Nombre + " En calidad de Alumno";
         }
     }
 }
