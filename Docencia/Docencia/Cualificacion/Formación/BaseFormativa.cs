@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace Docencia.Formacion
 {
-    public string 
-
+    
     public class BaseFormativa
     {
+        public string Nombre { get; }
+
+        public BaseFormativa(string nombre)
+        {
+            Nombre = nombre;
+
+        }
+
     }
 }

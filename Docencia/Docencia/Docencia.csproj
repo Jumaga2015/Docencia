@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Formacion\Evaluacion\" />
+    <Compile Remove="Cualificacion\Evaluacion\**" />
+    <EmbeddedResource Remove="Cualificacion\Evaluacion\**" />
+    <None Remove="Cualificacion\Evaluacion\**" />
   </ItemGroup>
 
 </Project>
